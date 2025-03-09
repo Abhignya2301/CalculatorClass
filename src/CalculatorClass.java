@@ -1,5 +1,5 @@
 public class CalculatorClass {
-    public void main(String[] args) {
+    public static void main(String[] args) {
         CalculatorClass a = new CalculatorClass();
         System.out.println(a.add(2,3));
         CalculatorClass b = new CalculatorClass();
