@@ -5,9 +5,9 @@ public class CalculatorClass {
         CalculatorClass b = new CalculatorClass();
         System.out.println(b.multiply(3,4));
         CalculatorClass c = new CalculatorClass();
-        System.out.println(c.divde(3,4));
+        System.out.println(c.divide(3,4));
         CalculatorClass d = new CalculatorClass();
-        System.out.println(d.substract(3,4));
+        System.out.println(d.subtract(3,4));
 
 
 
@@ -15,10 +15,10 @@ public class CalculatorClass {
     public int multiply(int a, int b) {
         return a * b;
     }
-    public int divde(int a, int b) {
+    public int divide(int a, int b) {
         return a / b;
     }
-    public int substract(int a, int b){
+    public int subtract(int a, int b){
         return a - b;
     }
 
